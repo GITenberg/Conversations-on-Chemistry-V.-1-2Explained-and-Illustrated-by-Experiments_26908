@@ -1,0 +1,186 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+div.maintext, div.page {margin-top: 4em; margin-bottom: 4em;}
+
+hr {width: 80%; margin-top: 1em; margin-bottom: 1em; text-align: center;}
+
+hr.fat, hr.thin {margin-bottom: 1px; width: 20%; color: #000;
+background-color: #000;}
+hr.fat {height: 3px;}
+hr.thin {height: 1px;}
+div.maintext hr.fat {margin-bottom: 1.5em;}
+
+hr.fat + hr.thin, hr.thin + hr.fat {margin-top: 1px;}
+
+sup {font-size: 75%; line-height: 50%;}
+sub {font-size: 50%;}
+
+a.tag {text-decoration: none; padding-left: .25em;}
+table.toc a, div.index a {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: normal; margin-top: .5em;
+margin-bottom: .5em;}
+
+h1 {font-size: 200%;}
+h2 {font-size: 175%;}
+h3 {font-size: 150%;}
+h4 {font-size: 120%;}
+h5 {font-size: 100%;}
+h6 {font-size: 85%;}
+
+h1.one, h2.one {font-size: 200%;}
+h1.two, h2.two {font-size: 175%; margin-top: .58em;
+margin-bottom: .58em;}
+h1.three, h3.three {font-size: 150%; margin-top: .67em;
+margin-bottom: .67em;}
+h1.four, h3.four {font-size: 120%; margin-top: .83em;
+margin-bottom: .83em;}
+h1.five, h3.five {font-size: 100%; margin-top: 1em;
+margin-bottom: 1em;}
+h1.six {font-size: 85%; margin-top: 1.2em; margin-bottom: 1.2em;}
+h1.seven, h2.seven, h3.seven {font-size: 75%; margin-top: 1.33em;
+margin-bottom: 1.33em;}
+
+div.maintext h3 {margin-top: 3em; margin-bottom: 1em;}
+div.maintext h4 {line-height: 1.5em; margin-top: 3em;
+margin-bottom: 1em;}
+h4 span.subhead {font-size: 80%;} /* 80% of 120% */
+h4.subhead {font-size: 96%; text-align: left; margin-left: 2.5em;
+margin-right: 1em; text-indent: -1.5em;}
+h4 + h4.subhead {margin-top: 1em;}
+h5.section {margin-top: 2em; margin-bottom: 1em;}
+div.endnote h4, div.endnote h5 {font-weight: bold; margin-top: 1em;}
+div.maintext h6 {font-size: 80%; margin-top: 1em;}
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.space {margin-top: 1.5em;}
+
+/* plates */
+
+p.illustration {text-align: center; margin-top: 1em; margin-bottom: 1em;}
+
+p.figname {float: right; clear: right; text-align: right;
+font-size: 88%; font-variant: small-caps; margin-top: 1em;}
+p.figpage {margin-top: 1em; font-size: 88%;}
+p.figname + p.illustration {clear: right;}
+p.caption {font-family: cursive; font-size: 88%;}
+p.figlink {text-align: center; margin-bottom: 1.5em;
+font-family: sans-serif; font-size: 85%;}
+
+
+p.speaker {text-align: center; font-size: 75%; margin-top: 1em;}
+p.illustration + p.speaker {margin-top: 2em;}
+
+p.center {text-align: center;}
+
+/* lists */
+
+p.listhead {text-align: center; font-style: italic;}
+p.listhead.long {text-align: left; margin-left: 1.5em;
+text-indent: -1.5em;}
+
+div.list, table.list {margin-top: 0; margin-bottom: 0;
+margin-left: 25%;}
+div.list.space {margin-top: .5em;}
+table.list.inline {margin-top: .5em; margin-left: 0;}
+div.list p {margin-top: 0;}
+
+table.list td {padding: 0 .2em 0 0;}
+
+div.inset {margin: 1em 2em;}
+div.endnote div.inset, p.inset {margin: .5em 2em;}
+div.inset p {margin-top: 0; margin-left: 1em; text-indent: -1em;}
+
+
+/* footnotes */
+
+p.footnote, div.footnote {margin: 2em; font-size: 95%;}
+
+/* index */
+
+div.index p {font-size: 88%; margin-top: .2em; line-height: normal;
+margin-left: 2em; text-indent: -2em;}
+div.index p.letterhead {margin-top: 1em; margin-bottom: 1em;
+text-align: center; font-family: sans-serif;}
+div.index p.letterhead i {font-size: 88%;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto; margin-top: 1em;
+margin-bottom: 1em;}
+
+td {vertical-align: top; text-align: left; padding: .1em;}
+tr.space td {padding-top: .5em; padding-bottom: .5em;}
+
+td.center {text-align: center;}
+td.middle {vertical-align: middle;}
+td.bottom {vertical-align: bottom;}
+
+td.number {text-align: right;}
+
+
+/* TOC */
+
+table.toc {font-size: 90%; margin-bottom: 2em;}
+table.toc td {padding-top: .5em;}
+
+table.toc td.chapnum {text-align: center; font-size: 100%;
+padding-top: 1em;}
+td.chapname {text-align: center; font-size: 80%;}
+td.chapname.long {text-align: left;}
+
+table.toc td.number {font-size: 80%; padding-left: 1em;}
+
+div.endnote table td {padding-right: .5em;}
+
+/* conditional */
+
+table p {margin-top: 0em; margin-left: 2em; text-indent: -2em;
+line-height: normal;}
+table.toc p {margin-left: 1em; text-indent: -1em;}
+
+
+/* beginning of section */
+
+span.firstletter {font-size: 150%; line-height: 67%;}
+span.firstword {font-variant: small-caps;}
+
+
+/* text formatting */
+
+.smallroman {text-transform: lowercase; font-variant: small-caps;}
+.smallcaps {font-variant: small-caps; font-style: normal;}
+.smaller {font-size: 88%;}
+.extended {letter-spacing: 0.2em;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+ins.edcorr {text-decoration: none; border-bottom: thin solid red;}
+ins.mycorr {text-decoration: none; border-bottom: thin dotted red;}
+
+/* page number */
+
+span.pagenum {position: absolute; right: 2%; font-size: 95%;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+span.pagenum.left {right: 93%;} /* for Index */
+
+/* Transcriber's Note */
+
+div.mynote, p.mynote {background-color: #DDE; color: #000;
+font-family: sans-serif; font-size: 90%;}
+div.mynote {margin: 2em 5%; padding: .5em 1em 1em;}
+p.mynote {margin: 1em 5%; padding: 1em;}
+div.mynote a {text-decoration: none;}
+div.index div.mynote p, table.toc p.mynote
+{margin-left: 0; text-indent: 0; margin-top: 1em;}
+
+
+div.endnote {padding: .5em 1em 1em; margin: 2em 1em;
+border: 3px ridge #A9F;}
+div.endnote, div.endnote td {font-family: sans-serif; font-size: 90%;}
