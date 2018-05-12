@@ -13,6 +13,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/32323
     wikipedia: http://en.wikipedia.org/wiki/Jane_Marcet
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/26908#Conversations-on-Chemistry-V.-1-2Explained-and-Illustrated-by-Experiments
 gutenberg_bookshelf: Chemistry
 gutenberg_issued: '2008-10-13'
 gutenberg_type: Text
