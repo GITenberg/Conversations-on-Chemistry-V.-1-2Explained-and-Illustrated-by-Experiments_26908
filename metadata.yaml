@@ -1,0 +1,30 @@
+_repo: Conversations-on-Chemistry-V.-1-2Explained-and-Illustrated-by-Experiments_26908
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Marcet, Mrs. (Jane Haldimand)
+    alias: Marcet, Jane Haldimand
+    birthdate: 1769
+    deathdate: 1858
+    gutenberg_agent_id: '32323'
+    url: http://www.gutenberg.org/2009/agents/32323
+    wikipedia: http://en.wikipedia.org/wiki/Jane_Marcet
+description: ''
+gutenberg_bookshelf: Chemistry
+gutenberg_issued: '2008-10-13'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '26908'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'QD'
+- !lcsh 'Chemistry'
+title: "Conversations on Chemistry, V. 1-2\r\nIn Which the Elements of that Science\
+  \ Are Familiarly Explained and Illustrated by Experiments"
+url: http://www.gutenberg.org/ebooks/26908
